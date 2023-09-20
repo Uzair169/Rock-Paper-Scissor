@@ -1,0 +1,81 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-content: center; */
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.main-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin-top: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.secondary-text {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+    font-family: sans-serif;
+    /* margin-top: 30px; */
+}
+#status {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    /* margin-top: 30px; */
+    margin-bottom: 80px;
+}
+#status-bar {
+    font-weight: 300;
+}
+#scoreBar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 24px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex: 0.2;
+    gap: 8px;
+}
+
+.buttonDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+img {
+    width: 150px;
+    height: 150px;
+    /* border-radius: 50%; */
+}
+
+.rockButton,
+.scissorsButton,
+.paperButton {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
